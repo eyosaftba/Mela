@@ -1,0 +1,54 @@
+.saved-article-link {
+  text-decoration: none;
+  color: green;
+}
+
+.saved-article-link:hover {
+  background-color: #eaeaea;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.saved-article-links {
+  margin-top: 5px;
+}
+
+.saved-article-links-container {
+  max-height: 80px;
+  overflow-y: scroll;
+}
+
+.saved-article-label {
+  display: flex;
+  font-size: 13px;
+}
+
+.Icon {
+  font-size: 13px;
+  margin-top: 3px;
+}
+
+.remove-icon {
+  font-size: 14px;
+  color: gray;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.remove-icon:hover {
+  color: red;
+}
+
+.saved-article-label p {
+  margin-left: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.no-articles-found-msg {
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+}
